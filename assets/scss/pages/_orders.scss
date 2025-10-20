@@ -1,0 +1,207 @@
+// order banner
+.orders-banner{
+    position: relative;
+    background-image: url("/assets/images/orders/orders-banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 141%;
+    background-position: left 100% bottom 42%;
+    border-radius: 12px;
+}
+
+.orders-banner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 12px;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.orders-banner-content{
+    position: relative;
+    z-index: 2;
+}
+
+// order banner btn
+.btn-other-recipe{
+    width: 144px;
+    border-radius: 12px;
+}
+
+
+// progress bar
+.progress-bar {
+  width: 100%;
+  height: 8px;
+  background-color: rgba(207, 214, 220, 1);
+  border-radius: 5px;
+}
+
+.progress-fill {
+  width: 70px;
+  height: 100%;
+  background-color: $primary;
+}
+
+// 訂單資訊
+.user-order-infor{
+    border-radius: 12px;
+    border: 1px solid #E5E5E5;
+    box-shadow: 0px 1px 2px rgba(0,0,0,0.05)
+}
+
+// 商品總覽
+.pack-title{
+    img {
+        max-width: 30px;
+        max-height: 30px;
+    }
+}
+
+.order-list-item{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.order-list-item-name-title{
+    padding: 8px;
+    text-align: center;
+    p{
+        width: 278px;
+        margin: 0;
+    }
+}
+
+.order-list-item-cost-title{
+    text-align: center;
+    margin-left: 24px;
+    p{
+        width: 70px;
+        margin: 8px;
+    }
+}
+
+.order-list-item-content{
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #E5E5E5;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.order-list-item-content-small{
+    width: 100%;
+    padding: 12px 12px;
+    border-left: 1px solid #E5E5E5;
+    border-right: 1px solid #E5E5E5;
+}
+
+.order-list-item-content-small-end{
+    width: 100%;
+    padding: 12px 12px;
+    border: 1px solid #E5E5E5;
+    border-top: none;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.order-items-name{
+    padding: 8px;
+    img{
+        width: 80px;
+        height: 80px;
+    }
+}
+
+.order-items-name-small{
+    padding: 8px;
+    img{
+        width: 48px;
+        height: 48px;
+    }
+}
+
+.order-items-name-text{
+    width: 186px;
+}
+
+.order-items-name-text-small{
+    width: 218px;
+}
+
+.order-items-cost{
+    text-align: center;
+    margin-left: 24px;
+    p{
+        width: 70px;
+        margin: 8px;
+    }
+}
+
+.order-items-unfolded{
+    background-color: #ffffff;
+    padding: 8px 44px;
+}
+
+.folded-arrow{
+    width: 10px;
+    height: 5px;
+    margin: 7.5px 5px;
+}
+
+.unfolded-arrow{
+    width: 10px;
+    height: 5px;
+    margin: 7.5px 5px;
+}
+
+
+.order-list-collapse-wrapper-title{
+    width: 856px;
+    display: flex;
+    justify-content: center;
+}
+
+.order-items-unfolded-title{
+    background-color: #F4F5F7;
+    margin: 6px 0px;
+}
+
+
+// 總額
+.order-list-total-pay{
+    border-top: 1px solid #E5E5E5;
+}
+
+
+
+
+// 客製文字、排版
+.text-disable{
+    color: rgba(117, 117, 117, 0.3);
+}
+
+.mb-32{
+    margin-bottom: 64px;
+}
+
+.order-ps-3{
+    padding-left: 3px;
+}
+
+.order-pe-3{
+    padding-right: 3px;
+}
+
+.order-ps-11{
+    padding-left: 11px;
+}
+
+.order-pe-11{
+    padding-right: 11px;
+}

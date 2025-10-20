@@ -1,0 +1,244 @@
+<div class="container">
+  <div class="row justify-content-between pt-30 pb-30">
+    <div class="col-3">
+      <!-- 訂單資訊 -->
+      <section>
+        <div class="mb-16">
+          <h1 class="fs-3 text-primary mb-0">訂單資訊</h1>
+        </div>
+
+        <div class="user-order-infor pt-10 pb-10 ps-8 pe-8">
+          <div>
+            <p class="Body2-md text-text-grey mb-2">收件人</p>
+            <p class="h-md-6">王小明（0912-123-456）</p>
+          </div>
+
+          <div>
+            <p class="Body2-md text-text-grey mb-2">配送地址</p>
+            <p class="h-md-6">台北市信義區信義路五段7號101大樓 25樓</p>
+          </div>
+
+          <div>
+            <p class="Body2-md text-text-grey mb-2">配送方式</p>
+            <p class="h-md-6">低溫宅配</p>
+          </div>
+
+          <div>
+            <p class="Body2-md text-text-grey mb-2">預計配送日期</p>
+            <p class="h-md-6">2025.05.29<span class="ms-6 me-6">-</span>2025.06.25</p>
+          </div>
+
+          <div>
+            <p class="Body2-md text-text-grey mb-2">付款方式</p>
+            <p class="h-md-6 mb-0">信用卡<span class="ms-6 me-6">-</span>末四碼1234</p>
+          </div>
+        </div>
+      </section>
+    </div>
+      
+    <div class="col-8">
+      <!-- 商品總覽 -->
+      <section>
+        <div class="mb-16">
+          <h1 class="fs-3 text-primary mb-0">商品總覽</h1>
+        </div>
+
+      <!-- 一鍵打包 -->
+        <div class="pack-title d-flex align-items-center">
+          <img src="/assets/images/orders/pack.png" alt="一鍵打包" class="m-8">
+          <p class="h-md-4 mb-0">一鍵打包</p>
+        </div>
+      
+      <!-- 未展開 -->
+      <div class="mb-10"> 
+        <div class="order-list-item bg-primary text-white h-md-6">
+          <div class="order-list-item-name-title ms-6">
+            <p>名稱</p>
+          </div>
+          <div class="order-list-item-cost-title">
+            <p>單價</p>
+          </div>
+          <div class="order-list-item-cost-title">
+            <p>數量</p>
+          </div>
+          <div class="order-list-item-cost-title">
+            <p>小計</p>
+          </div>
+        </div>
+
+        <div class="order-list-item-content d-flex align-items-center Body2-md">
+          <div class="order-items-name d-flex align-items-center">
+            <div>
+              <img src="/assets/images/orders/蕃茄炒蛋.png" alt="蕃茄炒蛋" class="me-6">
+            </div>
+            <div class="order-items-name-text">
+              <p class="h-md-5 text-primary mb-6">蕃茄炒蛋</p>
+              <p class="Body2-md text-text-grey mb-0">兩人份</p>
+            </div>
+          </div>
+          <div class="order-items-cost">
+            <p>59元</p>
+          </div>
+          <div class="order-items-cost">
+            <p>2</p>
+          </div>
+          <div class="order-items-cost">
+            <p>118元</p>
+          </div>
+
+          <div class="order-list-collapse-wrapper">
+            <button class="p-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-order-list" aria-expanded="false" aria-controls="collapse-order-list">
+              <div class="order-items-unfolded d-flex align-items-center">  
+                <p class="Body2-md text-text-grey me-6 mb-0">展開食材</p>
+                <img src="/assets/images/orders/unfolded-arrow.png" alt="展開食材" class="unfolded-arrow">
+              </div>
+            </button>
+          </div>
+
+          <div class="collapse" id="collapse-order-list">
+            <div class="card card-body">
+              Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- 展開食材 -->
+      <div class="mb-10"> 
+        <div class="order-list-item bg-primary text-white h-md-6">
+          <div class="order-list-item-name-title ms-6">
+            <p>名稱</p>
+          </div>
+          <div class="order-list-item-cost-title">
+            <p>單價</p>
+          </div>
+          <div class="order-list-item-cost-title">
+            <p>數量</p>
+          </div>
+          <div class="order-list-item-cost-title">
+            <p>小計</p>
+          </div>
+        </div>
+
+        <div class="order-list-item-content d-flex align-items-center Body2-md">
+          <div class="order-items-name d-flex align-items-center">
+            <div>
+              <img src="/assets/images/orders/檸香烘烤雞腿.jpg" alt="檸香烘烤雞腿" class="me-6">
+            </div>
+            <div class="order-items-name-text">
+              <p class="h-md-5 text-primary mb-6">檸香烘烤雞腿</p>
+              <p class="Body2-md text-text-grey mb-0">兩人份</p>
+            </div>
+          </div>
+          <div class="order-items-cost">
+            <p>230元</p>
+          </div>
+          <div class="order-items-cost">
+            <p>1</p>
+          </div>
+          <div class="order-items-cost">
+            <p>230元</p>
+          </div>
+
+          <div class="order-list-collapse-wrapper">
+            <button class="p-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-order-list" aria-expanded="false" aria-controls="collapse-order-list">
+              <div class="order-items-unfolded d-flex align-items-center">  
+                <p class="Body2-md text-text-grey me-6 mb-0">收合食材</p>
+                <img src="/assets/images/orders/unfolded-arrow.png" alt="收合食材" class="unfolded-arrow">
+              </div>
+            </button>
+          </div>
+
+          <div class="collapse" id="collapse-order-list">
+            <div class="card card-body">
+              Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- 單獨選購 -->
+        <div class="pack-title d-flex align-items-center">
+          <img src="/assets/images/orders/purchase.png" alt="單獨選購" class="m-8">
+          <p class="h-md-4 mb-0">單獨選購</p>
+        </div>
+
+      <div class="mb-16"> 
+          <div class="order-list-item d-flex align-items-center bg-primary text-white h-md-6">
+            <div class="order-list-item-name-title ms-6">
+              <p>名稱</p>
+            </div>
+            <div class="order-list-item-cost-title">
+              <p>單價</p>
+            </div>
+            <div class="order-list-item-cost-title">
+              <p>數量</p>
+            </div>
+            <div class="order-list-item-cost-title">
+              <p>小計</p>
+            </div>
+          </div>
+
+          <div>
+            <div>
+              <button class="order-list-collapse-wrapper-title p-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-order-list-purchase" aria-expanded="false" aria-controls="collapse-order-list-purchase">
+                <div class="order-items-unfolded-title d-flex align-items-center">
+                  <p class="Body2-md me-5 mb-0">冷藏／常溫配送</p>
+                  <img src="/assets/images/orders/unfolded-arrow.png" alt="冷藏／常溫配送" class="unfolded-arrow">
+                </div>
+              </button>
+            </div>
+
+            <div class="collapse" id="collapse-order-list-purchase">
+              <div class="order-list-item-content-small d-flex align-items-center Body2-md">
+                <div class="order-items-name-small d-flex align-items-center">
+                  <div>
+                    <img src="/assets/images/orders/韓式泡菜-原味（小辣）.jpg" alt="韓式泡菜-原味（小辣）" class="me-6">
+                  </div>
+                  <div class="order-items-name-text-small">
+                    <p class="h-md-6 mb-0">韓式泡菜-原味（小辣）</p>
+                    <p class="Body2-md text-text-grey mb-0">450g</p>
+                  </div>
+                </div>
+                <div class="order-items-cost">
+                  <p>260元</p>
+                </div>
+                <div class="order-items-cost">
+                  <p>1</p>
+                </div>
+                <div class="order-items-cost">
+                  <p>260元</p>
+                </div>          
+              </div>
+
+              <div class="order-list-item-content-small-end d-flex align-items-center Body2-md">
+                <div class="order-items-name-small d-flex align-items-center">
+                  <div>
+                    <img src="/assets/images/orders/海鹽.png" alt="海鹽" class="me-6">
+                  </div>
+                  <div class="order-items-name-text-small">
+                    <p class="h-md-6 mb-0">海鹽</p>
+                    <p class="Body2-md text-text-grey mb-0">300g</p>
+                  </div>
+                </div>
+                <div class="order-items-cost">
+                  <p>125元</p>
+                </div>
+                <div class="order-items-cost">
+                  <p>1</p>
+                </div>
+                <div class="order-items-cost">
+                  <p>125元</p>
+                </div>            
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <div class="order-list-total-pay">
+
+      </div>
+
+      </section>
+    </div>
+</div>
